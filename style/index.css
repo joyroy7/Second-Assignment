@@ -15,6 +15,7 @@
   }
   .nav-logo{
     display: flex;
+    justify-content: center;
     align-items: center;
   }
   .logo{
@@ -209,11 +210,9 @@
   }
   .exparts{
     display: flex;
-    justify-content: space-around;
-    gap: 5px;
+    justify-content: space-between;
   }
 .skills{
-    text-align: left;
     list-style: none;
     color: #FFF;
     font-size: 20px;
@@ -232,7 +231,80 @@
     width: 275px;
     background-color: #FFF;
     color: #FF42A5;
-    font-family: Work Sans;
     font-size: 20px;
     font-weight: 600; 
   }
+
+/* games name */
+
+
+  .games-list{
+    display: flex;
+    justify-content: center;
+  }
+ .all-game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 80px;
+  border-radius: 48px;
+  gap: 10px;
+}
+.names{
+  color: #0B0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+.names:hover{
+  color: #FF42A5;
+}
+.all-game:hover{
+  border: 4px solid #FF42A5;
+}
+.second{
+  margin-top: 20px;
+}
+.last-section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+/* footer list */
+
+.footer-container{ 
+  text-align: center;
+  background-color: #0B0223;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.amer{
+  color: #FFF;
+}
+.footer-list{
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  gap: 60px;
+  list-style: none;
+}
+.all-icon{
+display: flex;
+justify-content: center;
+list-style: none;
+gap: 20px;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+}
+.last-footer{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 60px;
+}
+
+.final{
+  text-align: center;
+}
+  
