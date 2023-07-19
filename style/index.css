@@ -13,6 +13,9 @@
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
   }
+  .third{
+    align-items: center;
+  }
   .nav-logo{
     display: flex;
     justify-content: center;
@@ -33,12 +36,16 @@
     display: flex;
     align-items:center ;
     list-style: none;
-    gap: 34px;
+    gap: 24px;
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
   }
   .box-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 260px;
     height: 56px;
     border-radius: 8px;
@@ -307,4 +314,5 @@ gap: 20px;
 .final{
   text-align: center;
 }
-  
+
+
