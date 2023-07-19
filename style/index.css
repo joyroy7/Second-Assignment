@@ -53,3 +53,61 @@
     height: 28px;
 
   }
+  /* banner styles */
+  .banner-container{
+    border: 2px solid red;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:url(/images/Group\ 14.png);
+  }
+  .banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  .banner-goat{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+  }
+  .banner-discription{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+
+
+  }
+  .botom-singin{
+    height: 60px;
+    width: 165px;
+    border: 0px;
+    border-radius: 48px;
+    background: #FF42A5;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .bottom-go{
+    height: 60px;
+    width: 185px;
+    border: 0px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /* we are gamer */
+  
