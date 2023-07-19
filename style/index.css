@@ -111,9 +111,7 @@
   }
 
   /* we are gamer */
-  .second{
-    border: 2px solid green;
-  }
+  
   .gamer-container{
     display: flex;
     justify-content: space-around;
@@ -176,4 +174,65 @@
   .horse-container{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 0px;
+  }
+  .text-itm{
+    text-align: right;
+  }
+  .tom img{
+    position: relative;
+    bottom: 280px;
+    right: 120px;
+  }
+
+  /* cats styles */
+  .cat-container{
+    display: flex;
+    justify-content:space-around;
+    
+  }
+  .cat-img{
+    position: relative;
+    bottom: 280px;
+    left: 490px;
+  }
+
+  /* kids styles */
+  .kids{
+    display: flex;
+    justify-content: center;
+    background-color: #FF42A5;
+    align-items: center;
+  }
+  .game{
+    color: #FFF;
+  }
+  .exparts{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+  }
+.skills{
+    text-align: left;
+    list-style: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+  .location{
+    text-align: right;
+    list-style: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .see{
+    height: 65px;
+    width: 275px;
+    background-color: #FFF;
+    color: #FF42A5;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600; 
   }
