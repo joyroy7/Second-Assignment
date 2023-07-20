@@ -418,12 +418,36 @@ gap: 20px;
 /* kids styles */
 
 .kids-container{
-  padding: 80px 65px 140px 65px;
+  padding: 80px 65px 100px 65px;
 }
 .img3{
-  height:500px ;
+  height:400px ;
   width: 400px;
 }
 
 
+
+/* footer style */
+
+.footer-list{
+  display:grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+ padding-bottom: 40px;
+}
+.all-icon{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding-bottom: 40px;
+}
+.last-footer{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 10px;
+  text-align: center;
+}
+.paragraph{
+  padding: 0px 100px;
+  gap: 40px;
+}
 }
