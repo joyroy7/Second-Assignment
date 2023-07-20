@@ -173,6 +173,9 @@
     width: 340px;
     height: 400px;
   }
+  .card-img:hover{
+    opacity: 0.5;
+  }
   .third-section{
     text-align: center;
   }
@@ -332,35 +335,89 @@ gap: 20px;
   .banner-container,
   .card,
   .horse-container,
-  .cat-container,
   .kids
   {
     flex-direction: column;
   }
   .nav-container{
-    text-align: center;
+    text-align: c;
   }
+
+  /* banner styles */
+
   .banner-container{
     flex-direction: column-reverse;
     padding:0px 80px 0px 80px ;
   }
   .big-img{
-    height: 430px;
-    width: 380px;
+    height: 490px;
+    width: 440px;
   }
+
+
+/* we are gamer */
+
   .gamer-container{
     flex-direction: column;
     text-align: center;
-  
     }
-  .kids-gang{
-    padding-right: 180px;
-    padding-left: 120px;
+  .gang-img{
+    width: 500px;
+    height: 300px;
+  }
+  .gamer-text{
+    padding-left: 100px;
   }
   .gamer-text,
   .card
   {
     text-align: center;
   }
+
+
+/* horse section */
+
+ .horse-container{
+  text-align: center;
+  margin-bottom: 0px;
+ }
+ .text-itm{
+  text-align: center;
+ }
+.rider{
+  width: 360px;
+  height:420px;
+  margin-top: 40px;
+}
+.tom img{
+  width: 170px;
+  position: relative;
+  bottom: 160px;
+  right: 160px;
+
+}
+/* cats styles */
+
+.cat-container{
+  flex-direction: column-reverse;
+  text-align:center ;
+}
+.img1{
+  width: 360px;
+  height:420px;
+  margin-top: 40px;
+}
+.img2{
+  width: 170px;
+  position: relative;
+  top: 120px;
+  right: 340px ;
+}
+
+
+/* kids styles */
+
+
+
 
 }
