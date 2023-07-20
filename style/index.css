@@ -32,7 +32,7 @@
   .pink{
     color:  #FF42A5;
   }
-  .nav-list ul{
+  .nav-list {
     display: flex;
     align-items:center ;
     list-style: none;
@@ -40,6 +40,12 @@
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
+    
+  }
+  .first-list{
+    display: flex;
+    list-style: none;
+    gap: 32px;
   }
   .box-nav{
     list-style: none;
@@ -50,11 +56,12 @@
     height: 56px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    padding-right: 18px;
 
   }
   .youtube{
     width: 33.916px;
-    height: 28px;
+    height: 32px;
   }
   .tictok{
     width: 28px;
@@ -66,9 +73,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #FFF;
     background-image:url(/images/Group\ 14.png);
     background-repeat: no-repeat;
-    background-color: #FFF;
   }
   .banner-title{
     color: #0B0223;
@@ -316,3 +323,41 @@ gap: 20px;
 }
 
 
+
+
+
+
+@media screen and (max-width:576px){
+  .nav-container,
+  .nav-list,
+  .first-list,
+  .banner-container
+  {
+    flex-direction: column;
+  }
+  .nav-container{
+    text-align: center;
+  }
+  .banner-container{
+    flex-direction: column-reverse;
+    padding:0px 80px 0px 80px ;
+    
+  }
+  .big-img{
+    height: 430px;
+    width: 380px;
+  }
+
+  .gamer-container{
+    flex-direction: column;
+    text-align: center;
+  
+    }
+  .kids-gang{
+    padding-right: 180px;
+    padding-left: 120px;
+  }
+  .gamer-text{
+    text-align: center;
+  }
+}
