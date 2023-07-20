@@ -417,7 +417,13 @@ gap: 20px;
 
 /* kids styles */
 
-
+.kids-container{
+  padding: 80px 65px 140px 65px;
+}
+.img3{
+  height:500px ;
+  width: 400px;
+}
 
 
 }
